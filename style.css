@@ -1,0 +1,96 @@
+body {
+	background-color: white;
+	color: blueviolet;
+	font-family: cardal;
+	color: black;
+	font-size: 18px;
+	font-weight: lighter;
+	text-align: center;
+}
+
+h1,h2,h3{
+	font-family: roboto, sans-serif;
+}
+h1{
+	color: #203239;
+	font-weight: 900;
+	font-size: 28px;
+	font-family: arial;
+}
+h2{
+	color: #203239;
+	font-size: 26px;
+	font-weight: 900;
+}
+a{
+	font-family: Robot, sans-serif;
+	text-decoration: none;
+	color: skyblue;
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: #488FB1;
+	padding: 12px 24px;
+	margin: 16px;
+	box-shadow: 4px 4px 4px 2px rgba(0.7, 0.7, 0.7, 0.5);
+	border-radius: 16px;
+}
+.img-circle{
+	clip-path: ellipse(29% 50%);
+}
+.btn-red{
+	background-color: indianred;
+	color: #203239;
+	padding: 15px 22px;
+	border-radius: 8px;
+}
+.btn-red:hover{
+	color: ghostwhite;
+	background-color: black;
+}
+
+.list-inline i : {
+	color: indianred;
+}
+.list-inline i:hover {
+	color: whitesmoke;
+}
+
+@media (max-width: 900px){
+	/* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+a:hover {
+	color: seagreen;
+}
+
+div {
+	background: white;
+	border: 2px gray;
+	margin: 10px;
+}
+
+  .img-circle{
+clip-path: ellipse(40% 40%);
+}
